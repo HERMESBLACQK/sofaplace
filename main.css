@@ -6,57 +6,43 @@
 
 
 .parent-house{
-          /* border: 3px solid red; */
           height: 900px;
           display: flex;
-          /* flex-direction: column; */
           justify-content: space-between;
 }
 .sidebar{
           display: flex;
           flex-direction: column;
-          /* border: 3px solid green; */
           width: 10%;
           text-align: center;
           box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.153573);
-          /* height: 90%; */
 }
 .shape{
-          /* border: 3px solid black; */
           height: 50%;
 }
 .sidebar img{
           margin-top: 25px;
 }
 .list{
-          /* display: flex; */
-          /* flex-direction: column; */
-          /* border: 3px solid red; */
-          /* position: absolute; */
-          /* bottom: 0; */
           height: 50%;
           align-items: center;
 }
 .list-link{
-          /* border: 3px solid yellow; */
           height: 100%;
           display: flex;
           justify-content: center;
 }
 .line{
           height: 2px;
-          /* border: 3px solid  #8B8B8B; */
           color:  #8B8B8B;
           transform: rotate(-90deg);
           position: absolute;
           bottom: -70px;
           width: 7%;
-          /* border: 0.2px solid #8B8B8B; */
           background: #8B8B8B;
           height: 1px;
 }
 .list-holder{
-          /* border: 3px solid blue; */
           width: fit-content;
           display: flex;
           flex-direction: column;
@@ -73,7 +59,6 @@
           padding: 5px 20px;
           position: absolute;
           bottom: 95px;
-          /* height: 100%; */
 }
 .list-holder li{
           border: 3px solid transparent;
@@ -93,19 +78,15 @@
           transition: 0.5s ease-in-out;
 }
 .main-page{
-          /* border: 3px solid blue; */
           width: 90%;
           background: url(./sofashop.png);
           background-size: 77%;
           background-repeat: no-repeat;
           background-position: top right;
-          /* height: 90%; */
-          /* margin-bottom:50px; */
 }
 
 .links{
           background: white;
-          /* display: flex; */
           width: 45%;
           position: absolute;
           right: 0;
@@ -114,7 +95,6 @@
           
 }
 .links ul{
-          /* border: 3px solid black; */
           display: flex;
           padding: 15px;
           justify-content: space-evenly;
@@ -146,7 +126,6 @@
 }
 .logo{
           margin-top: 30px;
-          /* border: 3px solid black; */
           width: fit-content;
           margin-left: 10px;
 }
@@ -159,13 +138,11 @@
           color: #FDBF44;
 }
 .slogan{
-          /* border: 3px solid blue; */
           position: absolute;
           top: 29.6%;
           left: 49%;
           display: flex;
           flex-direction: column;
-          /* overflow: hidden; */
 
 }
 .slogan p{
@@ -173,7 +150,6 @@
           font-weight: 700;
           color: black;
           letter-spacing: -5px;
-          /* top: %; */
       
 }
 .slogan-2{
@@ -183,7 +159,6 @@
     left: 36%;
     display: flex;
     letter-spacing: -5px;
-    /* border: 3px solid yellow; */
     height: 108px;
     overflow: hidden;
     padding-right: 20px;
@@ -196,18 +171,15 @@
           text-shadow: 0px 1px 0px #FFFFFF;
 }
 .note{
-          /* border: 3px solid black; */
           width: 50%;
           position: absolute;
           bottom: -15%;
           width: 80%;
-          /* margin-bottom: 30px; */
           right: 0px;
           display: flex;
           flex-direction: row;
 }
 .content{
-          /* border: 3px solid blue; */
           width: 50%;
           padding: 20px 0 10px 50px;
           background: #FFFFFF;
@@ -217,13 +189,11 @@
           color: #8B8B8B;
           font-size: 14px;
           font-weight: 400;
-          /* border: 2px solid red; */
           width: fit-content;
 }
 .content h2{
           display: flex;
           flex-direction: column;
-          /* border: 3px solid black; */
           font-weight: 700;
           font-size: 40px;
 }
@@ -232,7 +202,6 @@
           height: 5px;
           background: rgba(253, 191, 68, 0.15);
           width: 28%;
-          /* border: 2px solid blue; */
           margin-top: -10px;
 }
 .content p{
@@ -256,11 +225,9 @@
           transition:  0.4s  ease-in-out;
 }
 .num{
-          /* border: 3px solid red; */
           width: 50%;
 }
 .num h2{
-          /* border: 3px solid blue; */
           font-size: 150px;
           font-weight: 700;
           position: absolute;
@@ -273,8 +240,6 @@
           position: absolute;
           bottom: 0;
           right: 0;
-          /* padding: 10px 0; */
-          /* margin-top: 400px; */
 }
 .icon i{
           font-size: xx-large;
