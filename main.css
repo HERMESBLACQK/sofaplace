@@ -1,257 +1,289 @@
 *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@300&family=Roboto+Slab&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+.body{
           margin: 0;
           padding: 0;
+          font-family: 'Merriweather', serif; 
+          font-family: 'Poppins', sans-serif;
+          font-family: 'Roboto Slab', serif;
+          max-width: 1500px;
+
 }
 
-
-
-.parent-house{
-          height: 900px;
-          display: flex;
-          justify-content: space-between;
+main{
+    display: flex;
 }
 .sidebar{
-          display: flex;
-          flex-direction: column;
-          width: 10%;
-          text-align: center;
-          box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.153573);
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.153573);
+
 }
 .shape{
-          height: 50%;
-}
-.sidebar img{
-          margin-top: 25px;
+    margin-top: 25px;
+    height: 50%;
+    
 }
 .list{
-          height: 50%;
-          align-items: center;
+    height: 50%;
+    align-items: center;
 }
 .list-link{
-          height: 100%;
-          display: flex;
-          justify-content: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 .line{
-          height: 2px;
-          color:  #8B8B8B;
-          transform: rotate(-90deg);
-          position: absolute;
-          bottom: -70px;
-          width: 7%;
-          background: #8B8B8B;
-          height: 1px;
+    height: 2px;
+    color:  #8B8B8B;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 116%;
+    width: 8%;
+    background: #8B8B8B;
+    height: 1px;
 }
 .list-holder{
-          width: fit-content;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: center;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
 }
 .list-holder ul{
-          border: 3px solid transparent;
-          transform: rotate(-90deg);
-          display: flex;
-          justify-content: space-evenly;
-          width: 20%;
-          padding: 5px 20px;
-          position: absolute;
-          bottom: 95px;
+    border: 3px solid transparent;
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+    padding: 5px 20px;
+    position: absolute;
+    top: 87%;
 }
 .list-holder li{
-          border: 3px solid transparent;
-          list-style: none;
-          font-weight: 400;
-          cursor: pointer;
+    border: 3px solid transparent;
+    list-style: none;
+    font-weight: 400;
+    cursor: pointer;
 }
 .list-holder li a{
-          text-decoration: none;
-          border: 1px solid transparent;
-          font-size: 15px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-size: 15px;
+    color: #8B8B8B;
 
 }
 .list-holder li a:hover{
-          color: #E48A00;
-          border-bottom: 3px solid #8B8B8B;
-          transition: 0.5s ease-in-out;
+    color: #E48A00;
+    border-bottom: 3px solid #8B8B8B;
+    transition: 0.5s ease-in-out;
 }
-.main-page{
-          width: 90%;
-          background: url(./sofashop.png);
-          background-size: 77%;
-          background-repeat: no-repeat;
-          background-position: top right;
+.page{
+    width: 90%;
+    display: flex;
 }
-
 .links{
-          background: white;
-          width: 45%;
-          position: absolute;
-          right: 0;
-          box-shadow:  0px 2px 50px rgba(0, 0, 0, 0.252076);
-          
-          
+    background: white;
+    width: 45%;
+    position: absolute;
+    right: 0;
+    box-shadow:  0px 2px 50px rgba(0, 0, 0, 0.252076);
+    
+    
 }
 .links ul{
-          display: flex;
-          padding: 15px;
-          justify-content: space-evenly;
-          width: 100%;
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    width: 100%;
 }
 .links li {
-          border: 3px solid transparent;
-          list-style: none;
-          font-size: 17px;
-          font-weight: 400;
-          cursor: pointer;
-          padding: 5px;
+    border: 3px solid transparent;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
 }
 .links li a{
-          text-decoration: none;
+    text-decoration: none;
 }
 .links li:hover{
-          border: 2px solid #E48A00;
-          border-radius: 10px;
-          transition: 0.2s ease-in-out;
+    border: 2px solid #E48A00;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
 }
 .links ul li:nth-child(1)::before{
-          content: "";
-          position: absolute;
-          bottom: 16.5px;
-          height: 7px;
-          background: rgba(253, 191, 68, 0.15);
-          width: 50px;
+    content: "";
+    position: absolute;
+    bottom: 16.5px;
+    height: 7px;
+    background: rgba(253, 191, 68, 0.15);
+    width: 50px;
 }
-.logo{
-          margin-top: 30px;
-          width: fit-content;
-          margin-left: 10px;
+.logo-holder{
+    width: 20%;
 }
-.logo h3{
-          font-size: 40px;
-          font-weight: 700;   
-          cursor: pointer;
+.logo-holder h3{
+    font-size: 40px;
+    font-weight: 700;   
+    cursor: pointer;
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 20px;
 }
-.logo span{
-          color: #FDBF44;
+.logo-holder span{
+    color: #FDBF44;
 }
 .slogan{
-          position: absolute;
-          top: 29.6%;
-          left: 49%;
-          display: flex;
-          flex-direction: column;
+    position: absolute;
+    top: 30.9%;
+    left: 48%;
+    display: flex;
+    flex-direction: column;
 
 }
 .slogan p{
-          font-size: 100px;
-          font-weight: 700;
-          color: black;
-          letter-spacing: -5px;
-      
+    font-size: 100px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: -5px;
+    font-family: 'Roboto Slab', serif;
+
 }
 .slogan-2{
-       
-          position: absolute;
-    top: 66.5%;
-    left: 36%;
-    display: flex;
-    letter-spacing: -5px;
-    height: 108px;
-    overflow: hidden;
-    padding-right: 20px;
-    margin-left: 20px;
+ 
+    position: absolute;
+top: 66.5%;
+left: 36%;
+display: flex;
+letter-spacing: -5px;
+height: 108px;
+overflow: hidden;
+padding-right: 20px;
+margin-left: 30px;
 }
 .slogan-2 span{
-          font-size: 130px;
-          font-weight: 800;
-          color: #E48A00 ;
-          text-shadow: 0px 1px 0px #FFFFFF;
+    font-size: 140px;
+    font-weight: 800;
+    color: #E48A00 ;
+    text-shadow: 0px 1px 0px #FFFFFF;
+    font-family: 'Roboto Slab', serif;
+}
+.img-holder{
+    width: 80%;
+}
+.img-holder img{
+    height: 90%;
+    width: 100%;
 }
 .note{
-          width: 50%;
-          position: absolute;
-          bottom: -15%;
-          width: 80%;
-          right: 0px;
-          display: flex;
-          flex-direction: row;
+    position: absolute;
+    bottom: -24%;
+    width: 80%;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
 }
 .content{
-          width: 50%;
-          padding: 20px 0 10px 50px;
-          background: #FFFFFF;
-          box-shadow:  0px 2px 30px rgba(0, 0, 0, 0.128196), inset 10px 0px 0px #FDBF44;
+    width: 50%;
+    padding: 52px 0 10px 40px;
+    background: #FFFFFF;
+    box-shadow:  0px 2px 30px rgba(0, 0, 0, 0.128196), inset 10px 0px 0px #FDBF44;
 }
 .content h4{
-          color: #8B8B8B;
-          font-size: 14px;
-          font-weight: 400;
-          width: fit-content;
+    color: #8B8B8B;
+    font-size: 14px;
+    font-weight: 400;
+    width: fit-content;
+    margin-bottom: 5px;
+    font-family: 'Rubik', sans-serif;
+
 }
 .content h2{
-          display: flex;
-          flex-direction: column;
-          font-weight: 700;
-          font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
 }
 .content h2::after{
-          content: "";
-          height: 5px;
-          background: rgba(253, 191, 68, 0.15);
-          width: 28%;
-          margin-top: -10px;
+    content: "";
+    height: 5px;
+    background: rgba(253, 191, 68, 0.15);
+    width: 28%;
+    margin-top: -10px;
 }
 .content p{
-          font-size: 17px;
-          font-weight: 400;
-          color: #91949A;
-          line-height: 25px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #91949A;
+    line-height: 25px;
+    font-family: 'Rubik', sans-serif;
+
 }
 .content button{
-          background: black;
-          color: white;
-          padding: 10px 30px;
-          margin: 10px 50px 10px 0;
-          float: right;
-          cursor: pointer;
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px 50px 10px 0;
+    float: right;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    
 }
 .content button:hover{
-          width: 30%;
-          background: transparent;
-          color: black;
-          transition:  0.4s  ease-in-out;
+    width: 30%;
+    background: transparent;
+    color: black;
+    transition:  0.4s  ease-in-out;
 }
 .num{
-          width: 50%;
+    width: 50%;
+    
+    /* border: 3px solid black; */
 }
 .num h2{
-          font-size: 150px;
-          font-weight: 700;
-          position: absolute;
-          right: 1px;
-          color: #dfe2e6;
-          bottom: 35px;
+    font-size: 150px;
+    font-weight: 700;
+    position: absolute;
+    right: 25px;
+    color: #dfe2e6;
+    bottom: 65px;
+    font-family: 'Roboto Slab', serif;
 }
 .icon{
-          border: 3px solid transparent;
-          position: absolute;
-          bottom: 0;
-          right: 0;
+    border: 3px solid transparent;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
 .icon i{
-          font-size: xx-large;
-          padding: 0 10px;
-          border: 2px solid transparent;
-          cursor: pointer;
+    font-size: xx-large;
+    padding: 0 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    /* font-family: 'Rubik', sans-serif; */
 
 }
 .icon i:hover{
-          background: black;
-          color: white;
-          border-radius: 50%;
-          padding: 5px;
-          transition: 0.4s ease-in-out;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.4s ease-in-out;
 }
