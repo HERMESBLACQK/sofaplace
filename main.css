@@ -49,7 +49,7 @@ main{
     color:  #8B8B8B;
     transform: rotate(-90deg);
     position: absolute;
-    top: 117%;
+    top: 103%;
     width: 7%;
     background: #8B8B8B;
     height: 1px;
@@ -70,7 +70,7 @@ main{
     width: 23%;
     padding: 5px 20px;
     position: absolute;
-    top: 89%;
+    top: 78%;
 }
 .list-holder li{
     border: 3px solid transparent;
@@ -167,7 +167,7 @@ main{
 .slogan-2{
  
     position: absolute;
-top: 66.5%;
+top: 31.8%;
 left: 36%;
 display: flex;
 letter-spacing: -5px;
@@ -192,7 +192,7 @@ margin-left: 30px;
 }
 .note{
     position: absolute;
-    bottom: -24%;
+    bottom: -10%;
     width: 80%;
     right: 0px;
     display: flex;
