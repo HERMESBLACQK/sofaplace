@@ -194,7 +194,6 @@ margin-left: 30px;
     right: 0px;
     display: flex;
     flex-direction: row;
-    /* border: 2px solid black; */
 }
 .content{
     width: 50%;
